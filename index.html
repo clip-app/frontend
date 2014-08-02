@@ -9,6 +9,7 @@
 </head>
   <body>
     <script src="./static/js/jquery-1.11.1.min.js"></script>
+    <script src="./static/js/typeahead.bundle.js"></script>
     <script src="./static/js/bootstrap.min.js"></script>
 
     <div class="container">
@@ -25,7 +26,7 @@
             </div>
             <div class="form-group">
               <label for="text">say</label>
-              <input type="text" class="form-control" id="text" placeholder="You won the hackathon!">
+              <input type="text" class="form-control" id="text" autocomplete="off" placeholder="You won the hackathon!">
             </div>
           </form>
         </div>
@@ -33,5 +34,6 @@
     </div>
 
     <script src="./static/js/default-speeches.js"></script>
+    <script src="./static/js/speaker-typeahead.js"></script>
   </body>
 </html>
